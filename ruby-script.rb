@@ -1,9 +1,8 @@
 #!/usr/bin/env ruby
 
-require 'net/http'
 require "combine_pdf"
 require "Prawn"
-require 'find'
+
 
 files = Dir["./files/*"]
 puts files
